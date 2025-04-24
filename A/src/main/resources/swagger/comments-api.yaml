@@ -1,0 +1,46 @@
+openapi: "3.0.0"
+info:
+  title: "JSONPlaceholder Comments API"
+  version: "1.0.0"
+servers:
+  - url: https://jsonplaceholder.typicode.com
+paths:
+  /posts/{id}/comments:
+    get:
+      summary: "Get comments for a post by post ID"
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+            example: 1
+      responses:
+        "200":
+          description: "Successful response"
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Comment"
+components:
+  schemas:
+    Comment:
+      type: object
+      properties:
+        postId:
+          type: integer
+          example: 1
+        id:
+          type: integer
+          example: 1
+        name:
+          type: string
+          example: "id labore ex et quam laborum"
+        email:
+          type: string
+          example: "Eliseo@gardner.biz"
+        body:
+          type: string
+          example: "laudantium enim quasi est quidem magnam voluptate ipsam eos"

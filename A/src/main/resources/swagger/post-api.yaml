@@ -1,0 +1,41 @@
+openapi: "3.0.0"
+info:
+  title: "JSONPlaceholder Post API"
+  version: "1.0.0"
+servers:
+  - url: https://jsonplaceholder.typicode.com
+paths:
+  /posts/{id}:
+    get:
+      summary: "Get a post by ID"
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+            example: 1
+      responses:
+        "200":
+          description: "Successful response"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Post"
+components:
+  schemas:
+    Post:
+      type: object
+      properties:
+        userId:
+          type: integer
+          example: 1
+        id:
+          type: integer
+          example: 1
+        title:
+          type: string
+          example: "sunt aut facere repellat provident occaecati excepturi optio reprehenderit"
+        body:
+          type: string
+          example: "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum..."
