@@ -1,0 +1,13 @@
+C:\Users\andile.sithole\Downloads\integration-client-poc\src\main\java\com\example\Application.java
+C:\Users\andile.sithole\Downloads\integration-client-poc\src\main\java\com\example\config\IntegrationClientFactory.java
+C:\Users\andile.sithole\Downloads\integration-client-poc\src\main\java\com\example\config\JsonPlaceholderProperties.java
+C:\Users\andile.sithole\Downloads\integration-client-poc\src\main\java\com\example\demo\DemoIntegrationController.java
+C:\Users\andile.sithole\Downloads\integration-client-poc\target\generated-sources\openapi\src\main\java\com\example\integrations\jsonplaceholder\comments\DefaultApi.java
+C:\Users\andile.sithole\Downloads\integration-client-poc\target\generated-sources\openapi\src\main\java\com\example\integrations\jsonplaceholder\comments\DefaultApiClient.java
+C:\Users\andile.sithole\Downloads\integration-client-poc\target\generated-sources\openapi\src\main\java\com\example\integrations\jsonplaceholder\comments\model\Comment.java
+C:\Users\andile.sithole\Downloads\integration-client-poc\target\generated-sources\openapi\src\main\java\com\example\integrations\jsonplaceholder\post\DefaultApi.java
+C:\Users\andile.sithole\Downloads\integration-client-poc\target\generated-sources\openapi\src\main\java\com\example\integrations\jsonplaceholder\post\DefaultApiClient.java
+C:\Users\andile.sithole\Downloads\integration-client-poc\target\generated-sources\openapi\src\main\java\com\example\integrations\jsonplaceholder\post\model\Post.java
+C:\Users\andile.sithole\Downloads\integration-client-poc\target\generated-sources\openapi\src\main\java\org\openapitools\configuration\ApiKeyRequestInterceptor.java
+C:\Users\andile.sithole\Downloads\integration-client-poc\target\generated-sources\openapi\src\main\java\org\openapitools\configuration\ClientConfiguration.java
+C:\Users\andile.sithole\Downloads\integration-client-poc\target\generated-sources\openapi\src\main\java\org\openapitools\configuration\ClientPropertiesConfiguration.java

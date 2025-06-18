@@ -1,0 +1,38 @@
+openapi: 3.0.1
+info:
+  title: JSONPlaceholder Comments API
+  version: "1.0"
+paths:
+  /posts/{id}/comments:
+    get:
+      operationId: getCommentsByPostId
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Comment'
+components:
+  schemas:
+    Comment:
+      type: object
+      properties:
+        postId:
+          type: integer
+        id:
+          type: integer
+        name:
+          type: string
+        email:
+          type: string
+        body:
+          type: string

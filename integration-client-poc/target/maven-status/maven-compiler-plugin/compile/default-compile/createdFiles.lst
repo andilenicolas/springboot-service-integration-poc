@@ -1,0 +1,15 @@
+com\example\integrations\jsonplaceholder\post\DefaultApi.class
+com\example\config\IntegrationClientFactory.class
+com\example\demo\DemoIntegrationController.class
+com\example\integrations\jsonplaceholder\post\DefaultApiClient.class
+com\example\Application.class
+com\example\config\JsonPlaceholderProperties$Retry.class
+org\openapitools\configuration\ClientConfiguration.class
+org\openapitools\configuration\ClientPropertiesConfiguration.class
+com\example\config\JsonPlaceholderProperties$IntegrationProps.class
+com\example\integrations\jsonplaceholder\post\model\Post.class
+org\openapitools\configuration\ApiKeyRequestInterceptor.class
+com\example\integrations\jsonplaceholder\comments\DefaultApi.class
+com\example\integrations\jsonplaceholder\comments\model\Comment.class
+com\example\integrations\jsonplaceholder\comments\DefaultApiClient.class
+com\example\config\JsonPlaceholderProperties.class

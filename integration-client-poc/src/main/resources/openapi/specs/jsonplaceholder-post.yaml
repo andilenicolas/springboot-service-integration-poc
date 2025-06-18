@@ -1,0 +1,34 @@
+openapi: 3.0.1
+info:
+  title: JSONPlaceholder Post API
+  version: "1.0"
+paths:
+  /posts/{id}:
+    get:
+      operationId: getPostById
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Post"
+components:
+  schemas:
+    Post:
+      type: object
+      properties:
+        userId:
+          type: integer
+        id:
+          type: integer
+        title:
+          type: string
+        body:
+          type: string

@@ -1,0 +1,11 @@
+jsonplaceholder:
+  post:
+    base-url: https://jsonplaceholder.typicode.com
+    timeout-ms: 3000
+    retry:
+      max-attempts: 3
+  comments:
+    base-url: https://jsonplaceholder.typicode.com
+    timeout-ms: 3000
+    retry:
+      max-attempts: 2

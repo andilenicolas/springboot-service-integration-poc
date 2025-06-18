@@ -1,0 +1,9 @@
+README.md
+pom.xml
+src/main/java/com/example/integrations/jsonplaceholder/comments/DefaultApi.java
+src/main/java/com/example/integrations/jsonplaceholder/comments/DefaultApiClient.java
+src/main/java/com/example/integrations/jsonplaceholder/comments/model/Comment.java
+src/main/java/org/openapitools/configuration/ApiKeyRequestInterceptor.java
+src/main/java/org/openapitools/configuration/ClientConfiguration.java
+src/main/java/org/openapitools/configuration/ClientPropertiesConfiguration.java
+src/main/resources/oauth2-client.properties
